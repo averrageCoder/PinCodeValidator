@@ -21,3 +21,10 @@ pinCodeRegex = RegExp('^[0-9]{6}$');
 arguments.forEach(element => {
     console.log(element+": ", pinCodeRegex.test(element));
 });
+
+//uc4
+console.log("======= UC 4 =======")
+pinCodeRegex = RegExp('^[0-9]{3}\\s{0,1}[0-9]{3}$');
+arguments.forEach(element => {
+    console.log(element+": ", pinCodeRegex.test(element));
+});
